@@ -1,0 +1,210 @@
+* {
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+
+    height: 975px;
+    width: auto;
+    display: flex;
+    
+}
+
+.left {
+    height: auto;
+    width: 200px;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/rabbit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.right {
+
+    
+    width: auto;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240,240,240);
+    
+}
+.top_text {
+
+    font-size: 1.5em;
+    position: relative;
+    top: 5px; left: 35px;
+    font-style: bolder;
+
+}
+.italic_text {
+
+    font-style: italic;
+
+}
+
+.center-text {
+
+
+    font-size: 25px;
+    position: relative;
+    top: 35px; left: 100px;
+
+}
+.banner {
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: 150px;
+    background-size: cover;
+    
+    background-position: center;
+    background-color: rgba(0,0,0,.5);    
+    
+}
+
+.banner-text {
+
+    color: white;
+    position: relative;
+    top: 55px; left: 200px;
+    font-size: 4.2em;
+}
+
+img {
+
+    position: relative;
+    top: -55px; left: 25px;
+
+}
+.bottom-text {
+
+    
+    width: auto;
+    position: relative;
+    top: 725px;
+    text-align: center;
+    color: white;
+    
+
+
+}
+
+
+.top {
+
+    
+    width: auto;
+    position: relative;
+    top: 50px;
+    height: 200px;
+    
+}
+.center {
+
+    
+    width: auto;
+    position: relative;
+    top: 50px;
+    height: 400px;
+    box-shadow: 0px 5px 9px #888, 0px -5px 9px #888;
+
+}
+
+
+.bottom {
+   
+    width: auto;
+    position: relative;
+    top: 50px;
+    height: 200px;
+
+
+}
+
+/* FORMS BELOW*/
+
+input {
+
+
+    border-radius: 5px;
+    width: 300px;
+    border: 1px #E5E7EB solid;
+    height: 30px;
+
+}
+
+.forms {
+
+    position: relative;
+    display: grid;
+    top: 7px; left: 500px;
+    grid-template-columns: auto;
+    text-transform: capitalize;
+   
+    
+
+
+}
+
+.forms-two {
+
+    position: relative;
+    top: 55px; left: 125px;
+    display: grid;
+    grid-template-columns: auto;
+    text-transform: capitalize;
+
+}
+
+.password_val {
+
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+/* FORMS ^^ */
+
+
+/*button*/
+
+.create_account {
+
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 15px 40px;
+    background-color: #596D48;
+    border: none;
+    position: relative;
+    top: 45px; left: 45px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: auto;
+}
+
+.create_account:hover {
+
+    background-color: #688b4a;
+    color: white;
+    
+}
+/*button*/
+
+.account_login {
+    font-size: 1.2em;
+    position: relative;
+    top: 60px; left: 40px;
+
+}
+
